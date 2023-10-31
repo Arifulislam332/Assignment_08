@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.simple-navber{
+    height: 70px;
+    background-color:black;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.search-ber{
+    font-size: 20px;
+    font-weight: 600px;
+    list-style: none;
+    background-color: rgb(239, 107, 107);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.search-ber:hover{
+    background-color: aliceblue;
+    color: black;
+    border: 2px greenyellow solid;
+}
+a{
+    text-decoration: none;
+}
+.pesiduo:nth-child(n){
+    color: rgb(12, 180, 236);
+}
+.pesiduo:first-child{
+    color:red
+}
+.pesiduo:last-child{
+    color: violet;
+}
+ol{
+    padding: 50px 0 0 50px;
+}
+h1::before{
+    content: "Hello! ";
+}
+h1::after{
+    content: "5";
+}
