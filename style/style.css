@@ -31,13 +31,13 @@ a{
     text-decoration: none;
 }
 .pesiduo:nth-child(n){
-    color: rgb(12, 180, 236);
+    color: rgb(236, 86, 86);
 }
 .pesiduo:first-child{
-    color:red
+    color: aqua;
 }
 .pesiduo:last-child{
-    color: violet;
+    color: rgb(0, 212, 14);
 }
 ol{
     padding: 50px 0 0 50px;
@@ -47,4 +47,66 @@ h1::before{
 }
 h1::after{
     content: "5";
+}
+h1:hover{
+    background-color: tomato; 
+    border: 1px dashed gray;
+    border-radius: 5px;
+}
+.list{
+    padding: 50px;
+}
+.possition{
+    margin: 50px 0 0 50px;
+}
+.image{
+    display: block;
+    width: 200px;
+    border: none;
+}
+.ring{
+    position:relative;
+    left:0;
+    top: -90px;
+    z-index: 1;
+
+}
+.baccha{
+    position: relative;
+    z-index: 2;
+}
+.water{
+    position: relative;
+    top: -170px;
+}
+.over{
+    width: 400px;
+    height:200px;
+    border: 2px solid red;
+    overflow-y: scroll;
+}
+.hidden{
+    width: 100px;
+    border: 4px solid lightgreen;
+    height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    background-color:green;
+    margin: 100px auto;
+    border-radius: 10px;
+    transition: all 0.5s linear ;
+}
+.container:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red; 
+}
+.flag{
+    text-align: center;
 }
